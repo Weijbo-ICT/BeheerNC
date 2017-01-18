@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+  height: 100%;
+}
+.header {
+  background-color: #58585b;
+  height: 8%;
+  min-height: 75px;
+  width: 100%;
+  display: flex;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 7px 7px #00adef;
+  position: fixed;
+  float: left;
+}
+.logo {
+  margin: auto;
+  flex-basis: 15%;
+}
+.text {
+  flex-basis: 75%;
+  margin: auto;
+  text-shadow: 2px 1px 1px grey;
+} .text p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.content {
+  display: flex;
+  height: 100%;
+  position: static;
+  float: inherit;
+  padding-top: 80px;
+}
+.select {
+  flex-basis: 15%;
+  background-color: grey;
+}
+.select a {
+  background-color: #00adef;
+  width: 98%;
+  height: 6%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vw;
+  float: left;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: 5px 3px 3px black;
+  color: white;
+  text-shadow: 2px 1px 1px grey;
+}
+.select a:hover {
+  background-color: grey;
+  width: 98%;
+  height: 6%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vw;
+  float: left;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: 5px 3px 3px black;
+  color: white;
+  text-shadow: 2px 1px 1px grey;
+}
+.view {
+  flex-basis: 75%;
+  display: flex;
+} .view iframe {
+  flex-basis: 100%;
+  height: 100%;
+  border: 0px;
+}
